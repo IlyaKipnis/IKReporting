@@ -1,0 +1,20 @@
+Package: IKReporting
+Type: Package
+Title: Performance Reporting
+Version: 1.0
+Date: 2015-03-07
+Author: Ilya Kipnis
+Maintainer: Ilya Kipnis <ilya.kipnis@gmail.com>
+Description: Provides a collection of reporting tools
+License: GPL-2
+Depends:
+    xts (>= 0.9-3),
+    PerformanceAnalytics,
+    digest,
+    roxygen2
+Imports:
+    xts,
+    PerformanceAnalytics,
+    digest,
+    roxygen2
+LinkingTo: xts, PerformanceAnalytics, digest, roxygen2
