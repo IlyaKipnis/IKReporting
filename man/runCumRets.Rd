@@ -4,12 +4,17 @@
 \alias{runCumRets}
 \title{Running Cumulative Returns}
 \usage{
-runCumRets(R, n = 252)
+runCumRets(R, n = 252, annualized = FALSE, scale = NA)
 }
 \arguments{
 \item{R}{a set of returns}
 
 \item{n}{a lookback period}
+
+\item{annualized}{whether or not to take the cumulative or the annualized returns}
+
+\item{scale}{number of periods in a year
+(daily scale = 252, monthly scale = 12, quarterly scale = 4)}
 }
 \value{
 the cumulative return over an n-period lookback, with a base of zero

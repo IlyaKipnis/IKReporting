@@ -4,14 +4,16 @@
 \alias{plotCumRets}
 \title{Plot N-day Cumulative Returns}
 \usage{
-plotCumRets(R, n = 252, ...)
+plotCumRets(R, n = 252, annualized = FALSE, ...)
 }
 \arguments{
 \item{R}{a return stream}
 
 \item{n}{a lookback amount in days (default 252)}
 
-\item{...}{additional plotting arguments}
+\item{annualized}{whether or not to annualize returns}
+
+\item{...}{additional arguments}
 }
 \value{
 a rolling n-day cumulative return plot in percent

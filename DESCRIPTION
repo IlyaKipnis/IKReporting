@@ -11,10 +11,10 @@ Depends:
     xts (>= 0.9-3),
     PerformanceAnalytics,
     digest,
-    roxygen2
+    TTR
 Imports:
     xts,
     PerformanceAnalytics,
     digest,
-    roxygen2
-LinkingTo: xts, PerformanceAnalytics, digest, roxygen2
+    TTR
+LinkingTo: xts, PerformanceAnalytics, digest, TTR
